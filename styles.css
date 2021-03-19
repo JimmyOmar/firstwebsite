@@ -2,11 +2,17 @@
 body{
   font-family: "Roboto", sans-serif;
   margin: 0px;
+  background-color:  #1a1a1a;
+  background-image: url("idee.jpg");
 }
 
 .container{
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.right-side{
+  color: lightseagreen;
 }
 
 /* Nav styles */
@@ -39,19 +45,19 @@ body{
 }
 
 .nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightseagreen;
 }
 
 .nav-link-wrapper a:hover{
-    color: black;
+    color: lightseagreen;
 }
 
 .active-nav-link {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightseagreen;
 }
 
 .active-nav-link a{
-  color: black !important;
+  color: lightseagreen !important;
 }
 
 /* Portfolio styles */
@@ -103,7 +109,7 @@ body{
 }
 
 .img-darken {
-  transition: 1s;
+  transition: 0.7s;
   filter: brightness(10%);
 }
 
@@ -119,6 +125,7 @@ body{
 
 .profile-content-wrapper{
   padding: 30px;
+  color: white;
 
 }
 .profile-content-wrapper h1{

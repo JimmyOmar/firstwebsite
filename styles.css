@@ -134,12 +134,16 @@ body{
 }
 
 .profile-image-wrapper img {
-  width: 100%;
+  width: 50%;
+  padding-left: 500px;
+
+
 }
 
 .profile-content-wrapper{
-  padding: 30px;
+  padding-right: 400px;
   color: white;
+
 
 }
 .profile-content-wrapper h1{
